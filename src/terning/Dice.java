@@ -11,6 +11,7 @@ public class Dice {
 	//halløj
 	// roll the die n times and print the values
 	public void rollMultiple(int n) {
+		int MarkWasHere = 69;
 		for (int i=1; i<n; i++) {
 			System.out.print(roll() + " ");
 		}		
