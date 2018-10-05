@@ -4,6 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class DiceTest {
 
+    /**
+     *<p> Denne Funktion tester om terningen viser fra 1 til 6, 100 gange.</p>
+     *
+     *@author Hans.
+     *@version 1.
+     *@return void, laver fejl hvis tallet er uden for m&aelig;ngden 1 til 6.
+     */
     @org.junit.jupiter.api.Test
     void roll() {
         Dice TestDice = new Dice();
@@ -23,6 +30,12 @@ class DiceTest {
             assertTrue(y);
         }
     }
+
+
+
+
+
+
 
     @org.junit.jupiter.api.Test
     void rollMultiple() {
