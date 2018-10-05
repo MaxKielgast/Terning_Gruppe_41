@@ -8,7 +8,7 @@ public class Dice {
 		int d3=Math.round(d2);             // 0-5 integer
 		return d3 + 1;                     // 1-6		
 	}
-
+ // HANSSESES BRANCH!! ! !! "!! "! !! ! ! ! ! ! ! ! !
 	public void rollMultiple(int n) {
 		int MarkWasHere = 69;
 		for (int i=1; i<n; i++) {
