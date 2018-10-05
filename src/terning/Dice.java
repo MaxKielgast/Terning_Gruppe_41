@@ -9,6 +9,7 @@ public class Dice {
 		return d3 + 1;                     // 1-6		
 	}
 	// ikke halløj!! igen hej
+	//Tristan's første commit test
 
 	// roll the die n times and print the values
 	public void rollMultiple(int n) {
