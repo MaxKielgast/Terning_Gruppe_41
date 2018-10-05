@@ -9,6 +9,7 @@ public class Dice {
 		return d3 + 1;                     // 1-6		
 	}
 	// roll the die n times and print the values
+	// NEEJJJ!
 	public void rollMultiple(int n) {
 		for (int i=1; i<n; i++) {
 			System.out.print(roll() + " ");
